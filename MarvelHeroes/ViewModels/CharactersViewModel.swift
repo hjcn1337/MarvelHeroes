@@ -43,7 +43,6 @@ class CharactersViewModel {
                 for ch in $0.data.results {
                     chsArray.append(CharacterModel(name: ch.name, description: ch.description, imageUrlString: ch.thumbnail.urlString))
                 }
-                print(chsArray)
                 return chsArray
             }
     }
